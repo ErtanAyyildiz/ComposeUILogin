@@ -71,10 +71,10 @@ fun LoginScreen() {
 
             Button(
                 onClick = {
-                    if (username.value == "example" && password.value == "password") {
+                    if (username.value == "username" && password.value == "password") {
                         showToast(context, "Login Successful")
                     } else {
-                        showToast(context, "Invalid Credentials")
+                        showToast(context, "Invalid ")
                     }
                 }
             ) {
